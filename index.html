@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boder Radius</title>
+
+    
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital@0;1&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   
+    <h1>Border Radius</h1>
+    
+
+    <div class="grupoTop">
+        <div class="boxSuperiorEsquerdo">
+            <input id="superior-esquerdo" type="number" min="0" value="0" />
+        </div>
+        <div class="boxSuperiorDireito">
+            <input id="superior-direito" type="number" min="0" step="1" value="0" />
+        </div>
+    </div>
+
+    <div class="grupoBottom">
+        <div class="boxInferiorEsquerdo">
+            <input id="inferior-esquerdo" type="number" min="0" step="1" value="0" />
+        </div>
+        <div class="boxInferiorDireito">
+            <input id="inferior-direito" type="number" min="0" step="1" value="0" />
+        </div>
+
+    </div>
+    
+    <div class="content-result">
+        <p id="box-preview"></p>
+    </div>
+   
+    <div class="box3">
+        <h4>Curiosidade sobre o descobridor do raio Eratóstenes</h4>
+        <p>
+            O mais famoso feito de Eratóstenes foi, sem dúvida alguma,
+             o cálculo do diâmetro e circunferência da Terra de forma incrivelmente
+              acurada. Antes dele, outros acadêmicos como Platão (400 a.C.) e Arquimedes 
+              (250 a.C.) já tinham tentado obter essas medidas, mas a partir de bases de cálculo 
+              não conhecidas e com estimativas finais muito aquém do valor hoje estabelecido. 
+              Somente em torno de 200 a.C. é que Eratóstenes, utilizando uma base de cálculo 
+              elegante e eficaz, conseguiu tal proeza.
+        </p>
+    </div>
+   
+    
+    <div class="content-prop">
+        <div class="content-prop-items">
+            <input id="input-prop" type="text" readonly />
+            <button id="btn-copiar">Copiar raio </button>
+        </div>
+    </div>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
